@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Password Genserartor</title>
+</head>
+<body>
+
+<!-- INSERT HTML HERE -->
+<div class="container">
+	<h2>Password Generator</h2>
+	<div class="result-container">
+		<span id="result"></span>
+		<button class="btn" id="clipboard">
+			<i class="fa fa-clipboard" aria-hidden="true"></i>
+		</button>
+	</div>
+	<div class="settings">
+		<div class="setting">
+			<label>Password length</label>
+			<input type="number" id="length" min='4' max='20' value='20' />
+		</div>
+		<div class="setting">
+			<label>Include uppercase letters</label> 
+			<input type="checkbox" id="uppercase" checked />
+		</div>
+		<div class="setting">
+			<label>Include lowercase letters</label> 
+			<input type="checkbox" id="lowercase" checked />
+		</div>
+		<div class="setting">
+			<label>Include numbers</label> 
+			<input type="checkbox" id="numbers" checked />
+		</div>
+		<div class="setting">
+			<label>Include symbols</label> 
+			<input type="checkbox" id="symbols" checked />
+		</div>
+	</div>
+	<button class="btn btn-large" id="generate">
+		Generate password
+	</button>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-container">
+	<div class="social-panel">
+		<p>Created with <i class="fa fa-heart"></i> by
+			<a target="_blank"  href="https://github.com/gellejr" >Gelle jr</a></p>
+		<button class="close-btn"><i class="fas fa-times"></i></button>
+		<h4>Get in touch on</h4>
+		<ul>
+			<!-- <li>
+				<a href="https://www.patreon.com/florinpop17" target="_blank">
+					<i class="fab fa-discord"></i>
+				</a>
+			</li> -->
+			<li>
+				<a href="https://twitter.com/AamGelle" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+				<!--   -->
+			<li>
+				<a href="" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/mussagelle/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<button class="floating-btn">
+	Get in Touch
+</button>
+
+<div class="floating-text">
+	My <a href="https://github.com/gellejr" target="_blank">Github Account</a>
+</div>
+
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

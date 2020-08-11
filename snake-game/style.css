@@ -1,22 +1,29 @@
+body {
+	text-align: center;
+}
+
 .grid {
-	width: 200px;
-	height: 200px;
-	display: flex;
+	background-color: black;
+	border: 5px solid red;
+	width: 800px;
+	height: 500px;
+	margin-left: 250px;
+  	display: flex;
 	flex-wrap: wrap;
 	border-style: solid;
 }
 
 
 .grid div {
-	width: 20px;
-	height: 20px;
+	width: 80px;
+	height: 50px;
 
 }
 
  .snake {
- 	background-color: blue;
+ 	background-color: green;
  }
 
  .apple {
- 	background-color:  purple; 
+ 	background-color:  purple;
  }

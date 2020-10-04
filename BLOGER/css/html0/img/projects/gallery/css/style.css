@@ -1,0 +1,41 @@
+body {
+  background-color: #40514e;
+    text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+p {
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 1.5em;
+
+}
+
+h3 {
+  color: #66BFBF;
+  font-size: 1.5em;
+  font-family: 'Merriweather', serif;
+}
+
+li {
+  color: #66BFBF;
+  text-decoration: none;
+  margin-left: 300px;
+}
+
+.snake-pic {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.project {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
